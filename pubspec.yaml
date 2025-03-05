@@ -1,0 +1,28 @@
+name: dashboard_app
+description: A new Flutter project for a dashboard.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.0
+  google_fonts: ^2.1.0
+  image_picker: ^0.8.4+8
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/333.jpg
